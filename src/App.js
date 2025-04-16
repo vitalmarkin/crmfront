@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import SalesPage from './pages/SalesPage';
-import MarketingPage from './pages/MarketingPage';
+import SalesPage from '../pages/SalesPage';
+import MarketingPage from '../pages/MarketingPage';
 
 function App() {
   const [tab, setTab] = useState('sales');
